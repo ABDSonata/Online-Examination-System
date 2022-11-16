@@ -10,7 +10,8 @@ pipeline {
 				
 			        stage('Build') {
     				        steps {
-    					    bat "C:\Program Files\Jenkins\"
+    					    bat 'start cmd.exe /c C:\Program Files\Jenkins\checkone.bat'
+    					    
     					}
 				}
 			}	
