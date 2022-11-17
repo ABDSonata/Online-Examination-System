@@ -15,7 +15,7 @@ pipeline {
                                                   dir /Jenkins /checkone.bat
                                                   startup
                                                 """
-    					    #bat '"call C:\Program Files\Jenkins\checkone.bat /"'
+    					    #bat "'call C:\Program Files\Jenkins\checkone.bat /'"
     					    
     					#}
 				}
